@@ -4,7 +4,9 @@ fully yet, but I'm going to keep at it until I complete it.  (I'm an absolute
 beginner with all of this but I'm learning a lot).  Here's what I have working/done so far:
 
 1) Re-wrote the python script which manages the RSS feed using node, and tested it with test.js
+
 2) Re-routed the requests through a node server backend, which is using ejs to render the html and to allow data to be passed to the template
+
 3) Fixed/hooked up file structure to work with Node
 
 All of this took me a really long time (as I haven't used python or node much before this), and I naively assumed that
