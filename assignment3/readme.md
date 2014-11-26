@@ -19,4 +19,19 @@ This is an interesting application because a JSON file exists in the backend wit
 
 When the client chooses a country name from the list, the server is then notified, and we go back into that same JSON database to find a matching url extension, process it by adding the domain name prefix, pull data off the internet using the completed URL, and write it into a JSON object.  This JSON object is then routed through Express to the template and rendered, all on the server side.
 
-This was a really good exercise to understand the handling/routing of data files on the server, and how to structure these applications efficiently for server/client exchange.    
+This was a really good exercise to understand the handling/routing of data files on the server, and how to structure these applications efficiently for server/client exchange.  
+
+
+
+##To use
+clone or unzip, and then use
+'''
+npm start 
+'''
+or 
+'''
+node ./bin/www
+'''
+
+it will appear on localhost:3000
+
