@@ -16,6 +16,14 @@ var globalvoices = {
 		return countries;
 	},
 
+	returnCountriesJSON: function (){
+		var countries = [];
+		for (var key in data){
+			countries.push({value:key,label:key});
+		}
+		return countries;
+	},
+
 	rssURLfromCountry: function (country){
 		return data[country];
 	},
