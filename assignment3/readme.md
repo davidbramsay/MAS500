@@ -25,13 +25,13 @@ This was a really good exercise to understand the handling/routing of data files
 
 ##To use
 clone or unzip, and then use
-'''
+```
 npm start 
-'''
+```
 or 
-'''
+```
 node ./bin/www
-'''
+```
 
 it will appear on localhost:3000
 
