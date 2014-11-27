@@ -1,0 +1,17 @@
+extends index.jade
+
+block title
+	title GV - #{titleVar}
+
+block content
+	#storyBlock
+		each index in stories
+			.story
+				.sTitle #{index["title"]}
+				.sAuthor by: #{index["author"]}
+				.sContent #{index["contentSnippet"]}
+				.sLink 
+					a(href=index["link"]) click here to read more...
+			
+				
+	
